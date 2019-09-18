@@ -2,7 +2,10 @@
 
 Simple Node/Express API with GET request (for now)
 
+Requires Node and npm to be installed.
+
 To run:
+
 Clone repo
 
 `cd` into cloned directory
