@@ -2,7 +2,8 @@
 
 Simple Node/Express API with GET request (for now)
 
-Requires Node and npm to be installed.
+Requires Node and NPM to be installed.
+[Install Node](https://nodejs.org/en/)
 
 To run:
 
