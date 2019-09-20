@@ -1,6 +1,6 @@
 # Node API
 
-Simple Node/Express API with GET request (for now)
+### Simple Node/Express API with GET request (for now)
 
 Requires Node and NPM to be installed -- 
 [Install Node](https://nodejs.org/en/)
