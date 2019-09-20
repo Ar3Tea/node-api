@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Ar3Tea/node-api#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "express": "^4.17.1",
-    "nock": "^11.3.4"
+    "nock": "^11.3.4",
+    "supertest": "^4.0.2"
   }
 }
