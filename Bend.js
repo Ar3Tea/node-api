@@ -1,5 +1,4 @@
 const express = require('express')
-const nock = require('nock')
 const app = express()
 const port = 3000
 
