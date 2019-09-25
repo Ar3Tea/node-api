@@ -17,9 +17,9 @@ pipeline {
       }
     }
 
-    stage('Moving') {
+    dir('/var/lib/jenkins/workspace/myFirstPipeline/node-api') {
       steps {
-        sh 'cd node-api'
+        sh 'pwd'
       }
     }
      
