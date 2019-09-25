@@ -20,7 +20,7 @@ pipeline {
     stage('Move to start') {
       steps {
         dir('/var/lib/jenkins/workspace/myFirstPipeline/node-api') {
-          sh 'node Bend.js'
+          sh 'pwd'
         }
       }
     }
