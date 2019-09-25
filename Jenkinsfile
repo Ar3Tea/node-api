@@ -23,5 +23,6 @@ pipeline {
           sh 'node Bend.js'
         }
       }
-    }
+    }     
   }
+}
