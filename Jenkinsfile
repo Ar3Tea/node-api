@@ -18,8 +18,10 @@ pipeline {
     }
 
     stage('Moving') {
-      dir('/var/lib/jenkins/workspace/myFirstPipeline/node-api') {
-        sh 'pwd'
+      steps {
+        dir('/var/lib/jenkins/workspace/myFirstPipeline/node-api') {
+          sh 'pwd'
+        }
       }
     }
      
