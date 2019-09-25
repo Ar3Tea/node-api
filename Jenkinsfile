@@ -16,6 +16,12 @@ pipeline {
         sh 'npm install'
       }
     }
+
+    stage('Moving') {
+      steps {
+        sh 'cd node-api'
+      }
+    }
      
     stage('Start') {
       steps {
