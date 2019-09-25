@@ -37,3 +37,5 @@ run `mocha Bend.Test.js` in terminal to run test file with non-mock HTTP request
 
 `docker-build` to build container
 
+This will continue to be updated as I build it out...
+
