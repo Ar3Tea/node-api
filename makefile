@@ -8,6 +8,7 @@ run-mock-test:
 
 run-test:
 	@echo "running non-mock testing..."
+	mocha Bend.Test.js
 
 docker-build:
 	@echo "building docker container..."
