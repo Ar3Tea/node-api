@@ -21,8 +21,6 @@ You should see an output message in your terminal. Go to localhost:3000 to view 
 
 Requires Mocah and Chai -- [Install Mocha](https://mochajs.org/)
 
-`cd` into `__tests__` folder:
-
 run `mocha Bend.MockTest.js` in terminal to run test file with mock HTTP request
 
 run `mocha Bend.Test.js` in terminal to run test file with non-mock HTTP request
