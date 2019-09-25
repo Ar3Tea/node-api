@@ -17,19 +17,12 @@ pipeline {
       }
     }
 
-    stage('Moving') {
+    stage('Move to start') {
       steps {
         dir('/var/lib/jenkins/workspace/myFirstPipeline/node-api') {
-          sh 'pwd'
+          echo "moving.."
+          echo "starting.."
+          sh 'node Bend.js'
         }
       }
     }
-     
-    stage('Start') {
-      steps {
-        echo "starting.."
-        sh 'node Bend.js'
-      }
-    }      
-  }
-}
