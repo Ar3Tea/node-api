@@ -4,7 +4,7 @@
   "description": "",
   "main": "Bend.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
