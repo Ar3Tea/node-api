@@ -14,3 +14,6 @@ docker-build:
 	@echo "building docker container..."
 	docker build .
 
+docker-run:
+	@echo "running container..."
+	docker run node
