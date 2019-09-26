@@ -21,17 +21,15 @@ You should see an output message in your terminal. Go to localhost:3000 to view 
 
 Requires Mocah and Chai -- [Install Mocha](https://mochajs.org/)
 
-run `mocha Bend.MockTest.js` in terminal to run test file with mock HTTP request
-
-run `mocha Bend.Test.js` in terminal to run test file with non-mock HTTP request
+run `npm test` to see test results for both mocked and unmocked HTTP requests
 
 # Makefile
 
+prefix all subsequent commands with `make`:
+
 `run-api` to start node api
 
-`run-mock-test` to run testing with mock HTTP request
-
-`run-test` to run testing with non-mocked request
+`run-tests` to run testing
 
 `docker-build` to build container
 

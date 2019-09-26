@@ -2,13 +2,9 @@ run-api:
 	@echo "running node api.."
 	node Bend.js
 
-run-mock-test:
-	@echo "running mock testing..."
-	mocha Bend.MockTest.js
-
-run-test:
-	@echo "running non-mock testing..."
-	mocha Bend.Test.js
+run-tests:
+	@echo "running ntesting..."
+	npm test
 
 docker-build:
 	@echo "building docker container..."
