@@ -22,7 +22,7 @@ it('should return Hello World!', function (done) {
 
 it('should return OK', function (done) {
   request.get('http://localhost:3000/health', function (err, res, body){
-    expect(res.body.message).to.equal('OK');
+    expect(res.body).to.equal('OK');
     done();
   });
 });
