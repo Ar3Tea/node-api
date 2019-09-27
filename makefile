@@ -1,5 +1,6 @@
 run-api:
 	@echo "running node api.."
+	cd app
 	pm2 start Bend.js --watch
 
 run-tests:

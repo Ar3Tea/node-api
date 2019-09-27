@@ -1,6 +1,6 @@
 //const request = require('supertest')("http://localhost");
 const expect = require('chai').expect;
-const server = require('../Bend.js');
+const server = require('../app/Bend.js');
 const request = require('request');
 
 describe('server response', function () {
