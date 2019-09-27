@@ -5,7 +5,7 @@ const request = require('request');
 
 describe('server response', function () {
   before(function () {
-    server.listen(3000);
+    server.listen(3001);
   });
 
   after(function () {
@@ -14,14 +14,14 @@ describe('server response', function () {
 });
 
 it('should return Hello World!', function (done) {
-  request.get('http://localhost:3000/', function (req, res, body){
+  request.get('http://localhost:3001/', function (req, res, body){
     expect(res.body).to.equal('Hello World!');
     done();
   });
 });
 
 it('should return OK', function (done) {
-  request.get('http://localhost:3000/health', function (err, res, body){
+  request.get('http://localhost:3001/health', function (err, res, body){
     expect(res.body).to.equal('{"status":"OK","version":"commit here","commitMessage":"message maybe here"}');
     done();
   });
