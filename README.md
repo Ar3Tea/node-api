@@ -15,7 +15,10 @@ Clone repo
 
 `node Bend.js` or `pm2 start Bend.js` for persistence
 
-You should see an output message in your terminal. Go to localhost:3000 to view GET request. Go to localhost:3000/health for health check.
+You should see an output message in your terminal. Go to localhost:3000 to view GET request. 
+
+Go to localhost:3000/health for health check.
+Health check will be JSOn and include more as I go
 
 # Testing
 
