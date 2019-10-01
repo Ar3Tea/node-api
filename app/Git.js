@@ -1,4 +1,4 @@
-var Git = require("nodegit");
+let Git = require("nodegit");
  
 // Open the repository directory.
 Git.Repository.open("tmp")
@@ -22,19 +22,19 @@ Git.Repository.open("tmp")
       }
  
       // Show the commit sha.
-      console.log("commit " + commit.sha());
+      exports.Commit = commit.sha();
  
       // Store the author object.
-      var author = commit.author();
+      let author = commit.author();
  
       // Display author information.
-      console.log("Author:\t" + author.name() + " <" + author.email() + ">");
+      exports.Author = author.name() + " <" + author.email() + ">";
  
       // Show the commit date.
-      console.log("Date:\t" + commit.date());
+      exports.Dates = commit.date();
  
       // Give some space and show the message.
-      console.log("\n    " + commit.message());
+      exports.Message = commit.message();
     });
  
     // Start emitting events.
