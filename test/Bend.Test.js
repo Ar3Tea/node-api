@@ -20,9 +20,9 @@ it('should return Hello World!', function (done) {
   });
 });
 
-it('should return OK', function (done) {
+it('should return Status OK', function (done) {
   request.get('http://localhost:3000/health', function (err, res, body){
-    expect(res.body).to.equal('{"status":"OK","version":"commit here","commitMessage":"message maybe here"}');
+    expect(res.body).to.include('"status":"OK"');
     done();
   });
 });
