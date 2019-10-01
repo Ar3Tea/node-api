@@ -14,5 +14,5 @@ run-tests:
 
 docker-build:
 	@echo "building docker container..."
-	docker build .
+	docker build -t node-api .
 
