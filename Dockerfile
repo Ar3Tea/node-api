@@ -16,4 +16,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8000
+CMD [ "cd", "app"]
 CMD [ "node", "Bend.js" ]
