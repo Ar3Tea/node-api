@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3001
+const port = 8888
 const Git = require("nodegit");
 const gitInfo = require('../app/Git.js');
 
