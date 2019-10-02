@@ -8,9 +8,9 @@ Git.Clone("https://github.com/Ar3Tea/node-api", "./tmp")
 //    return repo.getCommit("59b20b8d5c6ff8d09518454d4dd8b7b30f095ab5");
 //  })
   // Look up a specific file within that commit.
-  .then(function(commit) {
-    return commit.getEntry("README.md");
-  })
+//  .then(function(commit) {
+//    return commit.getEntry("README.md");
+//  })
   // Get the blob contents from the file.
   .then(function(entry) {
     // Patch the blob to contain a reference to the entry.
