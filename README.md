@@ -18,7 +18,7 @@ Clone repo
 You should see an output message in your terminal. Go to localhost:3000 to view GET request. 
 
 Go to localhost:3000/health for health check.
-Health check will be JSOn and include more as I go
+Health check will be JSON and include more as I go
 
 # Testing
 
@@ -36,5 +36,11 @@ prefix all subsequent commands with `make`:
 
 `docker-build` to build container
 
-This will continue to be updated as I build it out...
+# CI/CD Pipeline
 
+This build includes a CI/CD Pipeline using Jenkins, Docker, and a VPS.
+
+More info on this to come.
+
+
+This will continue to be updated as I build it out...
