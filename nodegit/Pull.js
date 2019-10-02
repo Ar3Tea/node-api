@@ -1,9 +1,9 @@
-var nodegit = require("nodegit");
-var path = require("path");
+const nodegit = require("nodegit");
+const path = require("path");
 
-var repoDir = "../tmp";
+let repoDir = "../tmp";
 
-var repository;
+let repository;
 
 // Open a repository that needs to be fetched and fast-forwarded
 nodegit.Repository.open(path.resolve(__dirname, repoDir))
