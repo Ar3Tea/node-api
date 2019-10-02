@@ -15,11 +15,13 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-WORKDIR /node-api/app
+WORKDIR /node-api/nodegit
 
 RUN node Clone.js
-RUN node Pull.js
+# RUN node Pull.js
 RUN node Git.js
+
+WORKDIR /node-api/app
 
 CMD [ "node", "Bend.js" ] 
 
