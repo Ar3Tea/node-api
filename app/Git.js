@@ -1,5 +1,5 @@
 let Git = require("nodegit");
- 
+
 // Open the repository directory.
 Git.Repository.open("tmp")
   // Open the master branch.
@@ -11,7 +11,7 @@ Git.Repository.open("tmp")
     // Create a new history event emitter.
     let history = firstCommitOnMaster.history();
  
-    // Create a counter to only show up to 9 entries.
+    // Create a counter to only show up to 3 entries.
     let count = 0;
  
     // Listen for commit events from the history.
