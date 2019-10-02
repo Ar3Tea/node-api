@@ -23,4 +23,4 @@ RUN node Git.js
 
 CMD [ "node", "Bend.js" ] 
 
-EXPOSE 8888
+EXPOSE 8889
