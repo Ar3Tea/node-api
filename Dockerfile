@@ -17,6 +17,10 @@ COPY . .
 
 WORKDIR /node-api/app
 
+RUN node Clone.js
+RUN node Pull.js
+RUN node Git.js
+
 CMD [ "node", "Bend.js" ] 
 
-EXPOSE 8888
+EXPOSE 8889

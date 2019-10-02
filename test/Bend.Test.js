@@ -5,7 +5,7 @@ const request = require('request');
 
 describe('server response', function () {
   before(function () {
-    server.listen(8888);
+    server.listen(8889);
   });
 
   after(function () {
@@ -14,14 +14,14 @@ describe('server response', function () {
 });
 
 it('should return Hello World!', function (done) {
-  request.get('http://localhost:8888/', function (req, res, body){
+  request.get('http://localhost:8889/', function (req, res, body){
     expect(res.body).to.equal('Hello World!');
     done();
   });
 });
 
 it('should return Status OK', function (done) {
-  request.get('http://localhost:8888/health', function (err, res, body){
+  request.get('http://localhost:8889/health', function (err, res, body){
     expect(res.body).to.include('"status":"OK"');
     done();
   });
