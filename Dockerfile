@@ -15,6 +15,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8000
-CMD [ "cd", "app"]
-CMD [ "node", "Bend.js" ]
+WORKDIR /node-api/app
+
+CMD [ "node", "Bend.js" ] 
+
+EXPOSE 8888
