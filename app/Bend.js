@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 8889
 const Git = require("nodegit");
-const gitInfo = require('../nodegit/Git.js');
+const gitInfo = require('./Git.js');
 
 app.get('/health', (req, res) => res.json({ 
     status: 'OK',
