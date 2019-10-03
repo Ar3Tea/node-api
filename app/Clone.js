@@ -2,7 +2,7 @@ var Git = require("nodegit");
 
 // Clone a given repository into the `./tmp` folder.
 Git.Clone("https://github.com/Ar3Tea/node-api", "./tmp")
-  // Look up this known commit.
+/*  // Look up this known commit.
 //  .then(function(repo) {
 //    // Use a known commit sha from this repository.
 //    return repo.getCommit("59b20b8d5c6ff8d09518454d4dd8b7b30f095ab5");
@@ -30,4 +30,4 @@ Git.Clone("https://github.com/Ar3Tea/node-api", "./tmp")
     // Show the entire file.
     console.log(String(blob));
   })
-  .catch(function(err) { console.log(err); });
+  .catch(function(err) { console.log(err); }); */
