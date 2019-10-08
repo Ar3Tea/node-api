@@ -19,6 +19,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "nock": "^11.3.4",
     "nodegit": "^0.26.2",

@@ -13,14 +13,14 @@ describe('server response', function () {
   });
 });
 
-it('should return Hello World!', function (done) {
+it('return should include Hello Friend!', function (done) {
   request.get('http://localhost:8889/', function (req, res, body){
-    expect(res.body).to.equal('Hello World!');
+    expect(res.body).to.include('Hello Friend!');
     done();
   });
 });
 
-it('should return Status OK', function (done) {
+it('return should include Status OK', function (done) {
   request.get('http://localhost:8889/health', function (err, res, body){
     expect(res.body).to.include('"status":"OK"');
     done();
