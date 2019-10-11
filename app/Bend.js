@@ -48,4 +48,3 @@ app.get('/comics', (req, res) => request
 
 app.listen(port, () => console.log(`Simple Node/Express app listening on port ${port}!`))
 
-// testing systemd servic
