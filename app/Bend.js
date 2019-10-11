@@ -46,6 +46,16 @@ app.get('/comics', (req, res) => request
 .pipe(res)
 )
 
+const norris = 'https://api.chucknorris.io/jokes/random';
+
+app.get('/norris', (req, res) => request
+.get(norris)
+.on('error', function(err) {
+  console.error(err)
+})
+.pipe(res)
+)
+
 app.listen(port, () => console.log(`Simple Node/Express app listening on port ${port}!`))
 
 // Testing testing
