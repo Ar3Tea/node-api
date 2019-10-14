@@ -30,9 +30,9 @@ There's nothing important here, just a CI/CD playground."))
 
 app.get('/health', (req, res) => res.json({ 
     status: 'OK',
-    commit: gitInfo.Commit,
-    date: gitInfo.Dates,
-    author: gitInfo.Author,
+    //commit: gitInfo.Commit,
+    //date: gitInfo.Dates,
+    //author: gitInfo.Author,
     commitMessage: gitInfo.Message
 }))
 
